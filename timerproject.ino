@@ -15,7 +15,7 @@ using namespace ace_button;
 #define BUTTONPIN      4
 
 // How many NeoPixels are attached to the Arduino?
-#define NUMPIXELS      92
+#define NUMPIXELS      128
 
 // When we setup the NeoPixel library, we tell it how many pixels, and which pin to use to send signals.
 // Note that for older NeoPixel strips you might need to change the third parameter--see the strandtest
@@ -182,4 +182,3 @@ void handleEvent(AceButton* /* button */, uint8_t eventType, uint8_t /* buttonSt
       break;
   }
 }
-
